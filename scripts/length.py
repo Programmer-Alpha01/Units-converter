@@ -1,5 +1,3 @@
-import math
-
 def length(From, To, Value):
     length = { 
         # Metric
