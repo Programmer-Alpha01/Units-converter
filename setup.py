@@ -7,7 +7,7 @@ setup(
    name='Units-converter', #same as repository name
    version='1.0',
    description='A useful Units converter',
-   license="MIT",
+   license="",
    long_description=long_description,
    author='',
    author_email='',
@@ -15,6 +15,6 @@ setup(
    packages=['Units-converter'],  #same as name
    install_requires=[], #external packages as dependencies
    scripts=[
-            'scripts/distance',
+            'scripts/length',
            ]
 )
