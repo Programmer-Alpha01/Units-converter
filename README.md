@@ -1,6 +1,6 @@
 # Unit-Converter
 
-A simple unit converter package for Python.
+A simple unit converter package for Python. It was designed for scientific research and engineering calculation.
 
 ## To build the package
 
