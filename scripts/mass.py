@@ -27,12 +27,19 @@ def mass(From,To,value):
         'rg':10**-30,
         'qg':10**-33,
 
+        # Imperial
+        'tonne':1000
+        'pound':0.45359237
+        'oz':0.0283495231
+        'lb':0.453592338
+        'st':6.35029318
+
+        # Other
         'mp':2.17643424*(10**-8)            # Planck mass
         'da':1.6605390666050*(10**-27)      # Atomic mass unit (AMU)
         'electron':	9.1093835611*(10**-31), # One electron mass
         'proton':1.6726219236951*(10**-27), # One Proton mass
         'neutron':1.67492747121*(10**-27)   # One Neutron mass
-
 
         'mass-sun':1.98892*(10**30),        # Solar Mass
         'mass-mer':3.3022*(10**23),         # Mercury Mass
