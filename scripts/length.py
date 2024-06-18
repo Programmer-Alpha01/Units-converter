@@ -23,6 +23,16 @@ def length(From, To, Value):
         "Zm": 1000000000000000000000, # zettameter
         "Ym": 1000000000000000000000000, # yottameter
 
+        # 市制 (里, 引, 丈, 尺, 寸, 分, 厘, 毫)
+        "li": 500,      # 里
+        "in": 100/3,    # 引
+        "zhang": 10/3,  # 丈
+        "chi": 1/3,     # 尺
+        "cun": 1/30,    # 寸
+        "fen": 1/300,   # 分
+        "lii": 1/3000,  # 厘
+        "hao": 1/30000, # 毫
+
         # Imperial
         "in": 0.0254,   # inch
         "ft": 0.3048,   # foot
@@ -32,21 +42,24 @@ def length(From, To, Value):
         "fur": 201.168, # furlong
         "mi": 1609.344, # mile
 
-        # Other
-
-        "mil": 2.54*10**-5, # mil
-        "thou": 2.54*10**-5, # thou
-
-        "lp": 1.62*10**-35, # Planck length
-
+        # Astronomy
         "au": 149597870700, # astronomical unit
+        "ld": 384400000, # lunar distance
         "ls": 299792458, # light second
         "lm": 17987547480, # light minute
         "lh": 107925284800, # light hour
         "ly": 9460730472580800, # light year
         "pc": 30856775814671900, # parsec
 
+        # Natural units
+        "lp": 1.62*10**-35, # Planck length
+
+        # Others
+        "mil": 2.54*10**-5, # mil
+        "thou": 2.54*10**-5, # thou
+
         "nmi": 1852,    # nautical mile
+
         }
     
     return Value * length[From] / length[To]
