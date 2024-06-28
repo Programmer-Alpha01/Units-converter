@@ -1,6 +1,7 @@
 def energy(From,To,value):
     energy={
         'j':1,                  # Joule
+        'watt':1,               # watt
         'kj':0.001,             # Kilo Joule
         'kwh':3.6*(10**6),      # Kilowatt-hour
         'cal':4.184,            # Calorie
