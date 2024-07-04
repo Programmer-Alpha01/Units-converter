@@ -52,7 +52,7 @@ def length(From, To, Value):
         "pc": 30856775814671900, # parsec
 
         # Natural units
-        "lp": 1.62*10**-35, # Planck length
+        "planck": 1.61625518*10**-35, # Planck length
 
         # Others
         "mil": 2.54*10**-5, # mil

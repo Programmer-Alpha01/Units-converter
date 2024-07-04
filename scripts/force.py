@@ -7,7 +7,7 @@ def force(From, To, Value):
         "lbf": 4.44822, # pound-force
         "pdl": 0.138255, # poundal
 
-
+        'planck':1.21031359*(10**44)    # Planck Force
         }
     
     return Value * force[From] / force[To]

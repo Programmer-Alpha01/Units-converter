@@ -32,6 +32,7 @@ def pressure(From, To, Value):
         "hPa" : 1333.22, # hectopascal
         "kPa" : 13332.2, # kilopascal
         "MPa" : 133322000, # megapascal
+        'planck': 4.63309*(10**113)
         }
     
     return Value * pressure[From] / pressure[To]
