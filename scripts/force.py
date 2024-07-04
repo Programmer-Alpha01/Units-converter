@@ -1,6 +1,6 @@
 def force(From, To, Value):
     force = { 
-        "N": 1, # Newton
+        "n": 1, # Newton
 
         "dyne": 1*10**-5, # dyne
         "kp": 9.80665, # kilopond
