@@ -30,16 +30,16 @@ pip install dist/unit_converter-X.X.X-py3-none-any.whl
 ## Redeemable types and units
 | Category    | Units                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Byte(Decimal) |Byte(b), Kilobyte(kb), Megabyte(mb), Terabyte(tb), Petabyte(pb) , Exabyte(eb), Zettabyte(zb), Yottabyte(yb), Ronnabyte(rb), Quettabyte(qb)|
-|Energy|Joule(j), watt(watt), Kilo Joule(kj), Kilowatt-hour(kwh), Calorie(cal), British Thermal Unit(btu), Quad(quad), Therm(therm), One thousand cubic feet of gas(mcf), Planck energy(planck)|
+|Byte(Decimal) | Byte(b), Kilobyte(kb), Megabyte(mb), Terabyte(tb), Petabyte(pb) , Exabyte(eb), Zettabyte(zb), Yottabyte(yb), Ronnabyte(rb), Quettabyte(qb)|
+|Energy| Joule(j), watt(watt), Kilo Joule(kj), Kilowatt-hour(kwh), Calorie(cal), British Thermal Unit(btu), Quad(quad), Therm(therm), One thousand cubic feet of gas(mcf), Planck energy(planck)|
 |Force ||
 |Length||
 |Mass||
 |Pressure||
 |Radiation||
 |Volume||
-|Speed||
-|Temperature||
+|Speed| Metre per second(ms), Kilometre per hour(kmh), Miles per hour(mph), Knot(knot), Feet per second(fps), Speed of sound(march), Speed of light(c), Planck speed(planck)|
+|Temperature| Celsius(c), Fahrenheit(f), Kelvin(k), Rankine scale(r), Delisle scale(de), Newton scale(n), Réaumur scale(re), Rømer scale(ro), Planck temperature(plank)|
 |Time||
 |Volume||
 
