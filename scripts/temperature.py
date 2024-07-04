@@ -22,3 +22,4 @@ def temperature(From,To,value):
     elif To =="re":return (value-273.15)*(4/5)
     elif To =="ro":return ((value-273.15)*(21/40))+7.5
     elif To =="planck":return value/(1.41678416*(10**32))
+    elif To =="k":return value
