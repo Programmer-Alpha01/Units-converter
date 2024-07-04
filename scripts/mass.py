@@ -37,6 +37,7 @@ def mass(From,To,value):
         # Other
         'planck':2.17643424*(10**-8),            # Planck mass
         'da':1.6605390666050*(10**-27),      # Atomic mass unit (AMU)
+        'AMU':1.6605390666050*(10**-27),
         'electron':	9.1093835611*(10**-31),  # One electron mass
         'proton':1.6726219236951*(10**-27),  # One Proton mass
         'neutron':1.67492747121*(10**-27),   # One Neutron mass
