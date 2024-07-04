@@ -8,7 +8,8 @@ def energy(From,To,value):
         'btu':1055,             # British Thermal Unit
         'quad':1055*(10**15),   # Quad
         'therm':100000*1055,    # Therm
-        'mcf':10.27*100000*1055 # One thousand cubic feet of gas
+        'mcf':10.27*100000*1055,# One thousand cubic feet of gas
+        'planck':1.96*(10**-9)  # Planck energy
     }
 
     return value * energy[From] / energy[To]

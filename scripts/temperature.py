@@ -11,6 +11,7 @@ def temperature(From,To,value):
     elif From =="n" :   value=273.15+(value*(100/33))
     elif From =="re":   value=(value*(5/4))+273.15
     elif From =="ro":   value=(value-7.5)*(40/21)+273.15
+    elif From =="planck":   value=value*(1.41678416*(10**32))
 
     # Convert value(K) to destination
     if To =="c"   :return value-273.15
@@ -20,4 +21,4 @@ def temperature(From,To,value):
     elif To =="n" :return (value-273.15)*(33/100)
     elif To =="re":return (value-273.15)*(4/5)
     elif To =="ro":return ((value-273.15)*(21/40))+7.5
-
+    elif To =="planck":return value/(1.41678416*(10**32))

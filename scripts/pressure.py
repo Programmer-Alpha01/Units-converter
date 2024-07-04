@@ -9,6 +9,7 @@ def pressure(From, To, Value):
 
         "at" : 98066.5, # technical atmosphere
 
+        'planck': 4.63309*(10**113)
         }
     
     return Value * pressure[From] / pressure[To]
