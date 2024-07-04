@@ -28,6 +28,3 @@ def pressure(From, To, Value):
         }
     
     return Value * pressure[From] / pressure[To]
-    
-
-print(pressure("inHg", "mmHg", 1)) # 1 atm = 1.01325 bar
