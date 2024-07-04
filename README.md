@@ -30,7 +30,7 @@ pip install dist/unit_converter-X.X.X-py3-none-any.whl
 ### Supported Units and Categories
 | Category    | Units                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Byte(In decimal) |Byte(b), Kilobyte(kb), Megabyte(mb), Terabyte(tb), Petabyte(pb) , Exabyte(eb), Zettabyte(zb), Yottabyte(yb), Ronnabyte(rb), Quettabyte(qb)|
+|Byte(Decimal) |Byte(b), Kilobyte(kb), Megabyte(mb), Terabyte(tb), Petabyte(pb) , Exabyte(eb), Zettabyte(zb), Yottabyte(yb), Ronnabyte(rb), Quettabyte(qb)|
 |Energy|Joule(j), watt(watt), Kilo Joule(kj), Kilowatt-hour(kwh), Calorie(cal), British Thermal Unit(btu), Quad(quad), Therm(therm), One thousand cubic feet of gas(mcf), Planck energy(planck)|
 |Force ||
 |Length||
