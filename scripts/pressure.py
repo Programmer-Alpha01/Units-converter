@@ -1,3 +1,5 @@
+from force import force
+from area import area
 
 def pressure(From, To, Value):
     pressure = { 
@@ -27,4 +29,11 @@ def pressure(From, To, Value):
         "mmH2O": 0.10197162,
         }
     
+    #check if the units are in the dictionary
+    if From and To not in pressure:
+
+        forceFrom, areaFrom = From.split("/")
+        forceTo, areaTo = To.split("/")
+
+        return Value * force(forceFrom, forceTo) / area(areaFrom, areaTo)
     return Value * pressure[From] / pressure[To]
