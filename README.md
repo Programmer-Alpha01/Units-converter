@@ -44,6 +44,13 @@ pip install dist/unit_converter-X.X.X-py3-none-any.whl
 |Time|Quectosecond (Qs), Rontosecond (Rs), Yoctosecond (Ys), Zettosecond (Zs), Attosecond (As), Femtosecond (Fs), Picosecond (Ps), Nanosecond (Ns), Microsecond (Mircos), Millisecond (Ms), Centisecond (Cs), Decisecond (Ds), Second (S), Decasecond (Ds), Minute (Min), Hour (Hs), Kilosecond (Ks), Megasecond (Ms), Gigasecond (Gs), Terasecond (Ts), Petasecond (Ps), Exasecond (Es), Zettasecond (Zs), Yottasecond (Ys), Rontosecond (Rs), Quectosecond (Qs), Hour (Hr), Day (Day), Year (Year), Decade (Decade), Century, (Century), Millennium (Millennium), Planck time (Planck)|
 |Volume|Litre (l), Cubic metre (cubic), Gallon (gallon), Pint (pint), Cubic millimeter (mm3/mm^3), Cubic centimeter (cm3/cm^3), Cubic meter (m3/m^3), Cubic kilometer (km3/km^3)|
 
+## To build the package
 
+1. The scripts you want to convert
 
+2. The starting unit you want to convert
+
+3. The unit you want to convert to
+
+4. Convert value
   
